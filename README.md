@@ -40,32 +40,30 @@ go test ./... -v
 
 ## Explanation
 
-./... → run tests in current directory and all sub-packages
+- ./... => run tests in current directory and all sub-packages
 
--v → verbose mode, shows:
+**-v → verbose mode, shows:**
 
-Which package is being tested
-
-Which tests ran
-
-Which tests passed
+- Which package is being tested
+- Which tests ran
+- Which tests passed
 
 Example output:
 
+```bash
 === RUN TestSum
 --- PASS: TestSum (0.00s)
 PASS
 ok github.com/deepakkt/go-tests-handbook/01_basic_tests 0.123s
 
-TDD Cycle: Red, Green, Refactor
+```
 
-Red → Write a failing test first
+**TDD Cycle: Red, Green, Refactor**
 
-Green → Write minimal code to make the test pass
-
-Refactor → Clean up code and tests
-
-This repo demonstrates this cycle step by step.
+- Red → Write a failing test first
+- Green → Write minimal code to make the test pass
+- Refactor → Clean up code and tests
+- This repo demonstrates this cycle step by step.
 
 ## Learning Goals
 
