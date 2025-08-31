@@ -7,6 +7,7 @@ This repository is structured like a **handbook** with examples ranging from bas
 
 ## Project Structure
 
+```bash
 go-tests-handbook/
 ├── README.md
 ├── go.mod
@@ -16,6 +17,8 @@ go-tests-handbook/
 ├── 04_integration_tests/
 ├── 05_benchmark_tests/
 └── docs/
+
+```
 
 - **01_basic_tests/** → Simple tests to get started
 - **02_table_driven_tests/** → Idiomatic Go table-driven tests
@@ -35,7 +38,7 @@ go test ./... -v
 
 ```
 
-Explanation
+## Explanation
 
 ./... → run tests in current directory and all sub-packages
 
@@ -64,40 +67,30 @@ Refactor → Clean up code and tests
 
 This repo demonstrates this cycle step by step.
 
-Learning Goals
+## Learning Goals
 
-How to write unit tests in Go
+- How to write unit tests in Go
+- Using table-driven tests (idiomatic Go style)
+- Creating and using mocks
+- Writing integration tests (databases, APIs)
+- Measuring performance with benchmarks
+- Following the TDD workflow effectively
 
-Using table-driven tests (idiomatic Go style)
+## Contributing
 
-Creating and using mocks
+**Contributions are welcome!**
 
-Writing integration tests (databases, APIs)
+- Fork this repo
+- Create a feature branch (git checkout -b feature/your-example)
+- Commit your changes (git commit -m "feat: add new test example")
+- Push to your branch and open a PR
+- See CONTRIBUTING.md for details.
 
-Measuring performance with benchmarks
-
-Following the TDD workflow effectively
-
-Contributing
-
-Contributions are welcome!
-
-Fork this repo
-
-Create a feature branch (git checkout -b feature/your-example)
-
-Commit your changes (git commit -m "feat: add new test example")
-
-Push to your branch and open a PR 🚀
-
-See CONTRIBUTING.md
-for details.
-
-License
+## License
 
 This project is licensed under the MIT License
 
-About
+## About
 
 This is a learning-focused project to master Go testing and TDD while keeping the repo clear and beginner-friendly.
 Built with by Deepak K T.
