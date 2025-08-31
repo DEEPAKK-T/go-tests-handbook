@@ -91,4 +91,4 @@ This project is licensed under the MIT License
 ## About
 
 This is a learning-focused project to master Go testing and TDD while keeping the repo clear and beginner-friendly.
-Built with by Deepak K T.
+Built by Deepak K T.
